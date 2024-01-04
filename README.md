@@ -1,4 +1,4 @@
-# meh65816
+# ok65816emu
 
 A ok-quality 65C816 emulator written in C with SDL2 for graphics.
 
