@@ -13,6 +13,8 @@ A basic BIOS for the computer is provived. The BIOS isn't done, but it is a good
 - Up to 2 128 KiB OS/data ROMs
 - Ben Eater-inspired GPU with 512 KiB of VRAM - outputs 640x480 image (1 byte/pixel; --BBGGRR)
 - 4 Expansion ports (not sure what these would be used for yet, or if they should even exist; right now the idea is a GPIO header with the CPU's address bus, data bus, interrupt pins, etc. with a /CE signal for memory mapping)
+- The GPU runs at 25.175 MHz (640x480@60Hz VGA pixel clock)
+- The CPU runs at 12.5875 MHz (1/2 of GPU clock speed, because RAM/ROM chips are too slow for higher speeds)
 
 ## CPU Memory Map
 
